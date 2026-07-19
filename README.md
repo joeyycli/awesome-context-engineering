@@ -229,6 +229,7 @@ RL-trained models that run up to 8 parallel searches per turn to retrieve code c
 - **[interview-prep-template](https://github.com/AbhiK189/interview-prep-template)**: A three-layer context-engineering template (immutable sources → agent-maintained wiki → operating-manual file) where the agent synthesizes raw material into reusable answers, frameworks, and scored debriefs that compound over time
 - **[Practical Guide to Context Engineering](https://github.com/WakeUp-Jin/Practical-Guide-to-Context-Engineering)**: A practical, hands-on guide (in Chinese) to context engineering for LLM applications
 - **[MFS](https://github.com/zilliztech/mfs)**: A context harness that unifies code, docs, chat, databases, and object stores into one file-like, searchable namespace (`ls`/`cat`/`grep` + hybrid semantic search), so agents pull context incrementally instead of injecting it all up front; self-hosted and local-first (local ONNX embeddings + Milvus, no API key)
+- **[constitution-lint-action](https://github.com/joeyycli/constitution-lint-action)**: GitHub Action + pre-commit hook that lints an AI agent's constitution/CLAUDE.md file for 10 structural-completeness checks (escalation rules, spending limits, input-trust boundaries, secrets handling, etc.) — validates the context document itself, not the agent's runtime behavior
 
 ### Development Frameworks
 
